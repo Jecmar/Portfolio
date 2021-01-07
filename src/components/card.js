@@ -9,7 +9,7 @@ export default function Card({title,description, icon}){
                 <div className='card-body'>
                     <h3 className='card-title'>{title}</h3>
                     <p className='card-text perfil'>{description}</p>
-                    <a href='' download>Descargar CV</a>
+                    <a href='../CV.pdf' download>Descargar CV</a>
                 </div>
             </div>
         </Fragment>
