@@ -1,0 +1,74 @@
+.redondear {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.card {
+    border-radius: 30px;
+    position: relative;
+}
+
+.buton {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.modales{
+    margin-top: 10px;
+}
+
+.buton:hover{
+    cursor: pointer;
+}
+
+.card img {
+    padding: 10px;
+}
+
+.card h5 {
+    color: #0099ff;
+    font-weight: Bold;
+}
+
+.card h3 {
+    color: #0099ff;
+}
+
+.card p {
+    font-weight: 400;
+}
+
+.perfil {
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.card a {
+    color: #FFE200;
+    font-size: 20px;
+}
+
+.card a:hover {
+    text-decoration: none;
+    color: #E75D7A;
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: 100%;
+    }
+    .card h3 {
+        font-size: 23px;
+    }
+    .perfil {
+        font-size: 18px;
+        text-align: justify;
+    }
+}

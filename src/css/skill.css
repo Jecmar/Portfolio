@@ -1,0 +1,59 @@
+.estatura{
+    width: 128px;
+    height: 128px;
+}
+
+.estatura2{
+    width: 128px;
+    height: 128px;
+    margin: -20px 90px ;
+}
+
+.estatura3{
+    width: 128px;
+    height: 128px;
+    margin-top: -20px;
+}
+
+.estatura4{
+    width: 128px;
+    height: 128px;
+    margin: -20px 90px ;
+}
+
+.React{
+    width: 200px;
+    height: 200px;
+    margin: -20px 60px ;
+}
+
+.learn{
+    margin-top: 15px;
+}
+
+@media(max-width: 590px){
+    .estatura{
+        width: 80px;
+        height: 80px;
+    }
+    .estatura2{
+        width: 80px;
+       height: 80px;
+       margin: -20px 20px ;
+    }
+    .estatura3{
+        width: 80px;
+        height: 80px;
+        margin-top: 5px;
+    }
+    .estatura4{
+        width: 80px;
+        height: 80px;
+        margin: -20px 18px ;
+    }
+    .React{
+        width: 120px;
+        height: 120px;
+        margin: -20px 8px ;
+    }
+}

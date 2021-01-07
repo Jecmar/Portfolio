@@ -1,0 +1,20 @@
+form{
+    padding: 10px;
+    justify-content: center;
+}
+
+.form-control{
+    text-align: center;
+}
+
+.line{
+    border-right: 5px dotted #FFE200;
+}
+
+@media(max-width:580px){
+    .line{
+        border-right: 5px dotted transparent;
+        border-bottom: 5px dotted #FFE200;
+    }
+}
+
